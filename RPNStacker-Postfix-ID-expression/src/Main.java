@@ -10,7 +10,7 @@ import interpreter.Interpreter;
 import interpreter.InterpreterError;
 import regex.LexError;
 import regex.Scanner;
-import token.Token;
+import regex.Token;
 import parser.Parser;
 import parser.ParserError;
 
@@ -21,8 +21,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         args = new String [2];
-        args [0] = System.getProperty("user.dir")+ "\\src\\Calc1.stk";
-        args [1] = System.getProperty("user.dir")+ "\\src\\Calc2.stk";
+        args [0] = System.getProperty("user.dir")+ "\\src\\input.txt";
+        args [1] = System.getProperty("user.dir")+ "\\src\\input2.txt";
 
         run(args);
     }

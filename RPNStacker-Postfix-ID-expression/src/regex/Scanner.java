@@ -3,8 +3,6 @@ package regex;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
-import token.Token;
-import token.TokenType;
 
 public class Scanner {
 
