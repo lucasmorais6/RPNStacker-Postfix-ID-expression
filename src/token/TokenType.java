@@ -3,7 +3,7 @@ package token;
 public enum TokenType {
 
     // Literals.
-    NUM,
+    NUM,ID,
 
     // Single-character tokens for operations.
     MINUS, PLUS, SLASH, STAR,
