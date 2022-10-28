@@ -1,4 +1,4 @@
-package regex;
+package token;
 
 public enum TokenType {
 

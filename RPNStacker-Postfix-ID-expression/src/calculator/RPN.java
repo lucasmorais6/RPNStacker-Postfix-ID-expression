@@ -1,7 +1,7 @@
 package calculator;
 
-import regex.Token;
-import regex.TokenType;
+import token.Token;
+import token.TokenType;
 import utils.Stack;
 
 public class RPN {

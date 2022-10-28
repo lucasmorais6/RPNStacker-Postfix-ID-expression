@@ -1,5 +1,7 @@
 package regex;
 
+import token.TokenType;
+
 public class Regex {
 
     private static final String NUM_REGEX = "(\\d)+";

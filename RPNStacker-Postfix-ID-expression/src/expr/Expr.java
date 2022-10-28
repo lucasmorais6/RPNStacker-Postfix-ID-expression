@@ -1,6 +1,6 @@
 package expr;
 
-import regex.Token;
+import token.Token;
 
 public abstract class Expr {
 

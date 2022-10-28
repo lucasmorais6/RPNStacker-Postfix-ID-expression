@@ -8,9 +8,9 @@ import java.util.List;
 import expr.Expr;
 import interpreter.Interpreter;
 import interpreter.InterpreterError;
-import regex.LexError;
+import regex.RegexError;
 import regex.Scanner;
-import regex.Token;
+import token.Token;
 import parser.Parser;
 import parser.ParserError;
 
@@ -50,7 +50,7 @@ public class Main {
             interpreter.env.put("x", "3");
 
             System.out.println(interpreter.interp(expr));
-        } catch (LexError e) {
+        } catch (RegexError e) {
             error("Lex", e.getMessage());
             hasError = true;
         }

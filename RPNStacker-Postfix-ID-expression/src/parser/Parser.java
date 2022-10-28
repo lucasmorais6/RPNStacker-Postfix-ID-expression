@@ -4,8 +4,8 @@ import java.util.List;
 import java.util.Stack;
 
 import expr.Expr;
-import regex.Token;
-import regex.TokenType;
+import token.Token;
+import token.TokenType;
 
 public class Parser {
 

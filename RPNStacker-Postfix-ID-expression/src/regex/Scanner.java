@@ -1,5 +1,8 @@
 package regex;
 
+import token.Token;
+import token.TokenType;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
@@ -37,7 +40,7 @@ public class Scanner {
         } else if(Regex.isOP(token)) {
             output = new Token(Regex.getOPTokenType(token), token);
         } else {
-            throw new LexError("Unexpected character: "+token);
+            throw new RegexError("Unexpected character: "+token);
         }
 
         return output;
